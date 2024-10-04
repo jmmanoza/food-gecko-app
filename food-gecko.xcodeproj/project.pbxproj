@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		88BA39F62CAEA46600867A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA39F52CAEA46600867A01 /* AppDelegate.swift */; };
 		88BA39F82CAEA46600867A01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA39F72CAEA46600867A01 /* SceneDelegate.swift */; };
-		88BA39FA2CAEA46600867A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA39F92CAEA46600867A01 /* ViewController.swift */; };
+		88BA39FA2CAEA46600867A01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA39F92CAEA46600867A01 /* HomeViewController.swift */; };
 		88BA39FF2CAEA46800867A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BA39FE2CAEA46800867A01 /* Assets.xcassets */; };
 		88BA3A162CAEA64300867A01 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA3A152CAEA64300867A01 /* Product.swift */; };
 		88BA3A182CAEA66E00867A01 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA3A172CAEA66E00867A01 /* APIService.swift */; };
@@ -25,7 +25,7 @@
 		88BA39F22CAEA46600867A01 /* food-gecko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food-gecko.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BA39F52CAEA46600867A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88BA39F72CAEA46600867A01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88BA39F92CAEA46600867A01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88BA39F92CAEA46600867A01 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		88BA39FE2CAEA46800867A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88BA3A032CAEA46800867A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88BA3A152CAEA64300867A01 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 		88BA3A212CAEAEE500867A01 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				88BA39F92CAEA46600867A01 /* ViewController.swift */,
+				88BA39F92CAEA46600867A01 /* HomeViewController.swift */,
 				88BA3A222CAEAEF600867A01 /* ProductTableViewCell.swift */,
 			);
 			path = View;
@@ -259,7 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BA3A252CAEB43E00867A01 /* UIImageView+Ext.swift in Sources */,
-				88BA39FA2CAEA46600867A01 /* ViewController.swift in Sources */,
+				88BA39FA2CAEA46600867A01 /* HomeViewController.swift in Sources */,
 				88BA3A1E2CAEAA9300867A01 /* ProductUseCase.swift in Sources */,
 				88BA3A182CAEA66E00867A01 /* APIService.swift in Sources */,
 				88BA3A162CAEA64300867A01 /* Product.swift in Sources */,
